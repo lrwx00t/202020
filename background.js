@@ -1,6 +1,6 @@
 var status = 0;
 console.log("20/20/20 background process started..")
-chrome.alarms.create({ periodInMinutes: 1 });
+chrome.alarms.create({ periodInMinutes: 20 });
 chrome.action.setBadgeText({ text: "ON" });
 chrome.action.setBadgeBackgroundColor({ color: "blue" })
 
@@ -23,7 +23,7 @@ chrome.action.onClicked.addListener(function (tab) {
             }
         });
     } else {
-        chrome.alarms.create({ periodInMinutes: 1 });
+        chrome.alarms.create({ periodInMinutes: 20 });
     }
 });
 
