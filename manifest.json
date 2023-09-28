@@ -4,7 +4,7 @@
     "default_title": "Every 20 minutes, take a 20-second break and focus your eyes on something at least 20 feet away."
   },
   "manifest_version": 3,
-  "version": "0.1",
+  "version": "0.2",
   "description": " Every 20 minutes, take a 20-second break and focus your eyes on something at least 20 feet away.",
   "permissions": [
     "alarms",
